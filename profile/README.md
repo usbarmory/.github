@@ -1,11 +1,43 @@
-This organization contains the OSS work of the [Reversec Foundry team](https://reversec.com/foundry/).
+```
+EXPERTISE
+═══════════════════════════════════════════════════════════════════════════════
 
-We are [Andrea Barisani](https://andrea.bio), [Andrej Rosano](https://github.com/andrejro), [Daniele Bianco](https://github.com/danbia).
+┌──────────┐                                          ┌───────────┬─────────┐
+│ HARDWARE ├───┐            ┌───────────── research → │   RDS-TMC │ TEMPEST │█
+└──────────┘   │            │                         │ 802.3 PIP │ EMV     │█
+┌──────────┐   │  ░░░░░░░░  ├── penetration testing   └─────────────────────┘█
+│ FIRMWARE ├───┼─ SECURITY ─┤                           ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+└──────────┘   │  ░░░░░░░░  ├──────── code auditing   
+┌──────────┐   │            │                         ┌────────────┬────────┐
+│ SOFTWARE ├───┘            └────────── engineering → │ USB ARMORY │ TAMAGO │█
+└──────────┘                                          └─────────────────────┘█
+                                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+HERITAGE                                                               
+───────────────────────────────────────────────────────────────────────────────
 
-We work on `{hardware/firmware/software}` `{security engineering,penetration testing,code auditing}`.
+                                     ┌─────────────────┬─────────────────────┐
+ 2005 ─┬ inversepath.com             │                 │    Daniele Bianco   │░
+ 2017  └── foundry f-secure.com      │ Andrea Barisani │  github.com/danbia  │░
+ 2022    └── foundry withsecure.com  │                 ├─────────────────────┤░
+ 2025      └── foundry.reversec.com  │   andrea.bio    │    Andrej Rosano    │░
+                                     │                 │ github.com/andrejro │░
+                                     └─────────────────┴─────────────────────┘░
+                                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+OPEN SOURCE
+───────────────────────────────────────────────────────────────────────────────
 
-We are known for the [USB armory](https://github.com/usbarmory/usbarmory/wiki), [TamaGo](https://github.com/usbarmory/tamago/wiki), [crazy infosec research](https://github.com/abarisani/abarisani.github.io/tree/master/research).
+┌────────────┐ ┌─ MK I ──┐  ┌─ crucible                    ┌─ boot-transparency
+│ USB ARMORY ├─┤         ├──┘                              │
+└────────────┘ └─ MK II ─┘  └─ interlock                   ┌─────────── go-boot
+                    │                                      │
+ Armory Boot  ──────┘             ┌────────┐    ┌─ amd64 ──┘
+ Armory Drive ──────┘──── arm ────┤ TAMAGO ├────┼─ arm64
+ GoTEE        ──────┘             └────────┘    └─ riscv64               
+ Armored Witness ───┘
 
-We work at [Reversec](https://reversec.com/) keeping the [Inverse Path](https://inversepath.com/) spirit alive.
-
-You can reach us at usbarmory@inversepath.com
+───────────────────────────────────────────────────────────────────────────────
+                         ┌───────────────────────────┐
+                         │ usbarmory@inversepath.com │
+                         └───────────────────────────┘
+═══════════════════════════════════════════════════════════════════════════════
+```
