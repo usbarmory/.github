@@ -1,39 +1,36 @@
-```
-EXPERTISE
+REVERSEC FOUNDRY TEAM                                                 EXPERTISE
 ═══════════════════════════════════════════════════════════════════════════════
-
 ┌──────────┐                                          ┌───────────┬─────────┐
 │ HARDWARE ├───┐            ┌───────────── research → │   RDS-TMC │ TEMPEST │█
 └──────────┘   │            │                         │ 802.3 PIP │ EMV     │█
 ┌──────────┐   │  ░░░░░░░░  ├── penetration testing   └─────────────────────┘█
 │ FIRMWARE ├───┼─ SECURITY ─┤                           ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-└──────────┘   │  ░░░░░░░░  ├──────── code auditing   
+└──────────┘   │  ░░░░░░░░  ├──────── code auditing
 ┌──────────┐   │            │                         ┌────────────┬────────┐
 │ SOFTWARE ├───┘            └────────── engineering → │ USB ARMORY │ TAMAGO │█
 └──────────┘                                          └─────────────────────┘█
                                                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-HERITAGE                                                               
+HERITAGE
 ───────────────────────────────────────────────────────────────────────────────
-
                                      ┌─────────────────┬─────────────────────┐
  2005 ─┬ inversepath.com             │                 │    Daniele Bianco   │░
- 2017  └── foundry f-secure.com      │ Andrea Barisani │  github.com/danbia  │░
- 2022    └── foundry withsecure.com  │                 ├─────────────────────┤░
+ 2017  └─┬ foundry f-secure.com      │ Andrea Barisani │  github.com/danbia  │░
+ 2022    └─┬ foundry withsecure.com  │                 ├─────────────────────┤░
  2025      └── foundry.reversec.com  │   andrea.bio    │    Andrej Rosano    │░
                                      │                 │ github.com/andrejro │░
-                                     └─────────────────┴─────────────────────┘░
+                                     └───────────────────────────────────────┘░
                                       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 OPEN SOURCE
 ───────────────────────────────────────────────────────────────────────────────
 
-┌────────────┐ ┌─ MK I ──┐  ┌─ crucible                    ┌─ boot-transparency
-│ USB ARMORY ├─┤         ├──┘                              │
-└────────────┘ └─ MK II ─┘  └─ interlock                   ┌─────────── go-boot
+┌────────────┐ ┌─ MK I ──┐  ┌─ crucible   ┌ mxc-scc2       boot-transparency ─┐
+│ USB ARMORY ├─┐         ├──┘             ┌ mxs-dcp                           │
+└────────────┘ └─ MK II ─┘  └─ interlock ─┴ caam-keyblob   ┌──────── go-boot ─┘
                     │                                      │
  Armory Boot  ──────┘             ┌────────┐    ┌─ amd64 ──┘
- Armory Drive ──────┘──── arm ────┤ TAMAGO ├────┼─ arm64
- GoTEE        ──────┘             └────────┘    └─ riscv64               
- Armored Witness ───┘
+ Armory Drive ──────┘ ─── arm ────┤ TAMAGO ├────┼─ arm64
+ Armored Witness ───┘     ─┬─     └────────┘    └─ riscv64
+                           └─────── GoTEE ──────┘
 
 ───────────────────────────────────────────────────────────────────────────────
                          ┌───────────────────────────┐
